@@ -2,18 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Valentina Brambila Grando</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+    <div class="jumbotron d-flex flex-column justify-content-center">
+        <h1 class="display-4 d-flex justify-content-center">Valentina Brambila Grando</h1>
+        <p class="lead d-flex justify-content-center">Georgia Institute of Technology | Computer Science '22</p>
+        <hr class="my-4">
+        <p class="d-flex justify-content-center">I am a coder and a dreamer. A bookworm and an artist. And I like to let my dreams spill into my keyboard.</p>
+    </div>
+    <div id="content" class="d-flex flex-column align-items-center p-3">
+      <div class="d-flex flex-column align-items-center contactinfo">
+          <h2 class="p-3">Contact Me</h2>
+          <div class="d-flex justify-content-around iconscontact p-3">
+            <a href="https://github.com/Valentinagrando" target="blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/valentina-b-grando/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="./resources/resume2.pdf". target="blank"><i class="far fa-file fa-2x"></i></a>          
+          </div>
+      </div>
       <p>Click here to get a random message:</p>
       <button onclick="addRandomGreeting()">Hello</button>
       <div id="greeting-container"></div>
     </div>
   </body>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

@@ -7,3 +7,20 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+.display-4{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+
+}
+
+.contactinfo{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+.iconscontact{
+    width: 100%;
+}
