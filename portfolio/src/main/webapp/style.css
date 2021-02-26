@@ -1,7 +1,7 @@
 #content {
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  width:100%;
 }
 
 #greeting-container {
@@ -12,15 +12,35 @@
     display: flex;
     justify-content: center;
     margin: 0px auto;
+    
 
+}
+
+.jumbotron{
+    background-color: #4b9299;
+    color: white;
 }
 
 .contactinfo{
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
 }
 
 
 .iconscontact{
     width: 100%;
+}
+
+.jumbotron hr{
+    border: 0.1px solid white;
+    width: 80%;
+}
+
+.introduction{
+    width: 70%;    
+}
+
+
+.skills{
+    flex-wrap: wrap;
 }

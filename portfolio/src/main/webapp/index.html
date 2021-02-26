@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./resources/terminal.png"/>
     <title>Valentina Brambila Grando</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="style.css">
     
   </head>
   <body>
-    <div class="jumbotron d-flex flex-column justify-content-center">
+    <div class="jumbotron d-flex flex-column justify-content-center p-5">
         <h1 class="display-4 d-flex justify-content-center">Valentina Brambila Grando</h1>
         <p class="lead d-flex justify-content-center">Georgia Institute of Technology | Computer Science '22</p>
         <hr class="my-4">
@@ -25,10 +26,66 @@
             <a href="./resources/resume2.pdf". target="blank"><i class="far fa-file fa-2x"></i></a>          
           </div>
       </div>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+       <div class="d-flex justify-content-around introduction p-3">
+        <img src="./resources/me.jpg" alt="Picture of me, Valentina" width="300" height="400" class="p-3">
+        <div class="skills d-flex flex-column justify-content-center p-3">
+            <div class="technical p-3">
+            <h2>Technical Skills</h2>
+                <span class="badge badge-pill badge-info">Java</span>
+                <span class="badge badge-pill badge-info">Python</span>
+                <span class="badge badge-pill badge-info">Javascript</span>
+                <span class="badge badge-pill badge-info">HTML</span>
+                <span class="badge badge-pill badge-info">CSS</span>
+                <span class="badge badge-pill badge-info">C</span>
+                <span class="badge badge-pill badge-info">Swift</span> 
+            </div>
+            <div class="technologies p-3">
+                <h2>Technologies</h2>
+                <span class="badge badge-pill badge-success">Node.JS</span>
+                <span class="badge badge-pill badge-success">Angular</span>
+                <span class="badge badge-pill badge-success">SpringBoot</span>
+                <span class="badge badge-pill badge-success">Kibana</span>
+                <span class="badge badge-pill badge-success">React.js</span>
+                <span class="badge badge-pill badge-success">ElasticSearch</span>    
+                <span class="badge badge-pill badge-success">Flask</span>
+                <span class="badge badge-pill badge-success">Git</span>
+                <span class="badge badge-pill badge-success">Tkinter</span>
+                <span class="badge badge-pill badge-success">MongoDB</span>
+                <span class="badge badge-pill badge-success">Android Studio</span>
+                <span class="badge badge-pill badge-success">XCode</span>        
+            </div>
+            <div class="languages p-3">
+                <h2>Languages</h2>
+                <span class="badge badge-pill badge-primary">Potuguese</span>
+                <span class="badge badge-pill badge-primary">English</span>
+                <span class="badge badge-pill badge-primary">Spanish</span>
+                <span class="badge badge-pill badge-primary">German</span>
+                <span class="badge badge-pill badge-primary">French</span>       
+            </div>
+        </div>
     </div>
+    <div class="card favoritequote p-3">
+        <div class="card-header">
+            Favorite Quote
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+            <p>“Some lose all mind and become soul,insane.<br />
+                Some lose all soul and become mind, intellectual.<br />
+                Some lose both and become accepted”</p>
+            <footer class="blockquote-footer"><cite title="Charles Bukowski">Charles Bukowski</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+      <!-- <p>Click here to get a random message:</p>
+      <button onclick="addRandomGreeting()">Hello</button>
+      <div id="greeting-container"></div> -->
+    </div>
+    <hr class="featurette-divider">
+    <footer class="container p-5">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2021 Valentina Brambila Grando
+    </footer>
   </body>
 
 <script src="script.js"></script>
