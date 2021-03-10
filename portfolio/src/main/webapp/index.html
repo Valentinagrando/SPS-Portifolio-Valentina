@@ -27,56 +27,62 @@
           </div>
       </div>
        <div class="d-flex justify-content-around introduction p-3">
-        <img src="./resources/me.jpg" alt="Picture of me, Valentina" width="300" height="400" class="p-3">
-        <div class="skills d-flex flex-column justify-content-center p-3">
-            <div class="technical p-3">
-            <h2>Technical Skills</h2>
-                <span class="badge badge-pill badge-info">Java</span>
-                <span class="badge badge-pill badge-info">Python</span>
-                <span class="badge badge-pill badge-info">Javascript</span>
-                <span class="badge badge-pill badge-info">HTML</span>
-                <span class="badge badge-pill badge-info">CSS</span>
-                <span class="badge badge-pill badge-info">C</span>
-                <span class="badge badge-pill badge-info">Swift</span> 
+            <img src="./resources/me.jpg" alt="Picture of me, Valentina" width="300" height="400" class="p-3">
+            <div class="skills d-flex flex-column justify-content-center p-3">
+                <div class="technical p-3">
+                <h2>Technical Skills</h2>
+                    <span class="badge badge-pill badge-info">Java</span>
+                    <span class="badge badge-pill badge-info">Python</span>
+                    <span class="badge badge-pill badge-info">Javascript</span>
+                    <span class="badge badge-pill badge-info">HTML</span>
+                    <span class="badge badge-pill badge-info">CSS</span>
+                    <span class="badge badge-pill badge-info">C</span>
+                    <span class="badge badge-pill badge-info">Swift</span> 
+                </div>
+                <div class="technologies p-3">
+                    <h2>Technologies</h2>
+                    <span class="badge badge-pill badge-success">Node.JS</span>
+                    <span class="badge badge-pill badge-success">Angular</span>
+                    <span class="badge badge-pill badge-success">SpringBoot</span>
+                    <span class="badge badge-pill badge-success">Kibana</span>
+                    <span class="badge badge-pill badge-success">React.js</span>
+                    <span class="badge badge-pill badge-success">ElasticSearch</span>    
+                    <span class="badge badge-pill badge-success">Flask</span>
+                    <span class="badge badge-pill badge-success">Git</span>
+                    <span class="badge badge-pill badge-success">Tkinter</span>
+                    <span class="badge badge-pill badge-success">MongoDB</span>
+                    <span class="badge badge-pill badge-success">Android Studio</span>
+                    <span class="badge badge-pill badge-success">XCode</span>        
+                </div>
+                <div class="languages p-3">
+                    <h2>Languages</h2>
+                    <span class="badge badge-pill badge-primary">Potuguese</span>
+                    <span class="badge badge-pill badge-primary">English</span>
+                    <span class="badge badge-pill badge-primary">Spanish</span>
+                    <span class="badge badge-pill badge-primary">German</span>
+                    <span class="badge badge-pill badge-primary">French</span>       
+                </div>
             </div>
-            <div class="technologies p-3">
-                <h2>Technologies</h2>
-                <span class="badge badge-pill badge-success">Node.JS</span>
-                <span class="badge badge-pill badge-success">Angular</span>
-                <span class="badge badge-pill badge-success">SpringBoot</span>
-                <span class="badge badge-pill badge-success">Kibana</span>
-                <span class="badge badge-pill badge-success">React.js</span>
-                <span class="badge badge-pill badge-success">ElasticSearch</span>    
-                <span class="badge badge-pill badge-success">Flask</span>
-                <span class="badge badge-pill badge-success">Git</span>
-                <span class="badge badge-pill badge-success">Tkinter</span>
-                <span class="badge badge-pill badge-success">MongoDB</span>
-                <span class="badge badge-pill badge-success">Android Studio</span>
-                <span class="badge badge-pill badge-success">XCode</span>        
+        </div>
+        <div class="card favoritequote p-3">
+                <div class="card-header">
+                    Favorite Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                    <p>“Some lose all mind and become soul,insane.<br />
+                        Some lose all soul and become mind, intellectual.<br />
+                        Some lose both and become accepted”</p>
+                    <footer class="blockquote-footer"><cite title="Charles Bukowski">Charles Bukowski</cite></footer>
+                    </blockquote>
             </div>
-            <div class="languages p-3">
-                <h2>Languages</h2>
-                <span class="badge badge-pill badge-primary">Potuguese</span>
-                <span class="badge badge-pill badge-primary">English</span>
-                <span class="badge badge-pill badge-primary">Spanish</span>
-                <span class="badge badge-pill badge-primary">German</span>
-                <span class="badge badge-pill badge-primary">French</span>       
-            </div>
+        </div>
+        <div id="factsMe" class="d-flex flex-column align-items-center justify-content-around p-3">
+            <button type="button" class="btn btn-outline-info insideFacts" onclick="randomFacts()">Click here to get a random fact about me!</button>
+            <p id="factContainer" class="insideFacts"></p>
         </div>
     </div>
-    <div class="card favoritequote p-3">
-        <div class="card-header">
-            Favorite Quote
-        </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-            <p>“Some lose all mind and become soul,insane.<br />
-                Some lose all soul and become mind, intellectual.<br />
-                Some lose both and become accepted”</p>
-            <footer class="blockquote-footer"><cite title="Charles Bukowski">Charles Bukowski</cite></footer>
-            </blockquote>
-        </div>
-    </div>
+    
     </div>
     <hr class="featurette-divider">
     <footer class="container p-5">

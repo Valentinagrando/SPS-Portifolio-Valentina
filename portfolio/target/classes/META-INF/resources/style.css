@@ -44,3 +44,11 @@
 .skills{
     flex-wrap: wrap;
 }
+
+#factContainer{
+    text-decoration: underline;
+}
+
+.insideFacts{
+    margin: 2rem;
+}
