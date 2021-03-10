@@ -15,14 +15,19 @@
 /**
  * Adds a random greeting to the page.
  */
-function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+async function randomFacts() {
 
-  // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  // Pick a random fact.
+  const responseFromServer = await fetch('/facts');
+  const responseText = await responseFromServer.json();
 
   // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  let choice = Math.floor(Math.random() * responseText.length);
+  console.log(choice);
+  const factContainer = document.getElementById('factContainer');
+  factContainer.innerText = responseText[choice];
+
 }
+
+
+
