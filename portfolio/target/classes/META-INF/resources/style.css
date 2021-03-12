@@ -44,3 +44,19 @@
 .skills{
     flex-wrap: wrap;
 }
+
+.contact-info-form{
+    width: 70%;
+}
+
+.submit-contact{   
+    color: white !important;
+}
+
+.submit-contact::hover{
+    color: gray !important;
+}
+
+.submit-container{
+    margin: 0 auto; 
+}
